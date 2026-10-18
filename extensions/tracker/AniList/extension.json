@@ -1,0 +1,92 @@
+{
+  "id": "AniList",
+  "name": "AniList",
+  "description": "Track manga progress and lists with AniList.",
+  "kind": "tracker",
+  "apiVersion": "3.0",
+  "version": "3.0.0",
+  "language": "multi",
+  "languages": [
+    "multi"
+  ],
+  "contentRating": "SAFE",
+  "availability": "available",
+  "capabilities": [
+    "authentication",
+    "progress",
+    "trackerCollections",
+    "trackerSearch"
+  ],
+  "permissions": [
+    "authenticationHandoff",
+    "network",
+    "trackerUpdates"
+  ],
+  "allowedHTTPSHosts": [
+    "anilist.co",
+    "graphql.anilist.co",
+    "s4.anilist.co"
+  ],
+  "authenticationModes": [
+    "oauth2Implicit"
+  ],
+  "developers": [
+    {
+      "name": "manko Extension Contributors",
+      "github": "https://github.com/Manko-iOS/trackers"
+    }
+  ],
+  "iconFile": "icon.svg",
+  "license": "Apache-2.0",
+  "upstream": {
+    "repository": "https://github.com/inkdex/tracker-extensions",
+    "branch": "0.9/stable",
+    "commit": "d5002c2e144eeac8c69b236c7675c4ddedf2a0b8",
+    "sourcePath": "src/AniList",
+    "relationship": "behavioralReference"
+  },
+  "runtime": "wasm",
+  "crate": "manko-anilist",
+  "compatibility": {
+    "runtime": "native-wasm",
+    "apiVersion": "3.0"
+  },
+  "accountPolicy": {
+    "authentication": {
+      "mode": "oauth2Implicit",
+      "authorizationURL": "https://anilist.co/api/v2/oauth/authorize",
+      "callbackScheme": "manko",
+      "callbackURL": "manko://oauth/anilist",
+      "clientIDInfoPlistKey": "MANKO_ANILIST_OAUTH_CLIENT_ID",
+      "responseType": "token",
+      "scopes": []
+    },
+    "requests": [
+      {
+        "origin": "https://graphql.anilist.co",
+        "pathPrefix": "/",
+        "methods": [
+          "POST"
+        ],
+        "operations": [
+          "trackerSearch",
+          "progress",
+          "progressBatch",
+          "collections"
+        ],
+        "bodyKind": "graphqlQuery"
+      },
+      {
+        "origin": "https://graphql.anilist.co",
+        "pathPrefix": "/",
+        "methods": [
+          "POST"
+        ],
+        "operations": [
+          "update"
+        ],
+        "bodyKind": "graphqlMutation"
+      }
+    ]
+  }
+}

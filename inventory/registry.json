@@ -1,0 +1,12 @@
+{
+  "entries": [
+    {
+      "kind": "tracker",
+      "id": "AniList"
+    },
+    {
+      "kind": "tracker",
+      "id": "MyAnimeList"
+    }
+  ]
+}

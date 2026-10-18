@@ -1,0 +1,18 @@
+{
+  "pack": "trackers",
+  "expectedIDs": [
+    "AniList",
+    "MyAnimeList"
+  ],
+  "packs": {
+    "trackers": {
+      "id": "manko.trackers",
+      "name": "Manko Trackers",
+      "description": "User-installed reading-list trackers.",
+      "homepage": "https://github.com/Manko-iOS/trackers",
+      "privacyURL": "https://github.com/Manko-iOS/trackers/blob/main/PRIVACY.md",
+      "publisherName": "Manko Contributors",
+      "repositoryURL": "https://manko-ios.github.io/trackers/"
+    }
+  }
+}
