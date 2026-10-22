@@ -23,13 +23,13 @@
       "developers": [
         {
           "name": "manko Extension Contributors",
-          "github": "https://github.com/Manko-iOS/trackers"
+          "github": "https://github.com/mangoreader-ios/trackers"
         }
       ],
       "rightsDeclaration": "Licensed under Apache-2.0.",
-      "rightsURL": "https://github.com/Manko-iOS/trackers/blob/main/extensions/tracker/AniList/LICENSE",
-      "reportURL": "https://github.com/Manko-iOS/trackers/issues/new/choose",
-      "sourceURL": "https://github.com/Manko-iOS/trackers/tree/main/extensions/tracker/AniList",
+      "rightsURL": "https://github.com/mangoreader-ios/trackers/blob/main/extensions/tracker/AniList/LICENSE",
+      "reportURL": "https://github.com/mangoreader-ios/trackers/issues/new/choose",
+      "sourceURL": "https://github.com/mangoreader-ios/trackers/tree/main/extensions/tracker/AniList",
       "sourceRevision": "main",
       "entryType": "extension",
       "kind": "tracker",
@@ -127,13 +127,13 @@
       "developers": [
         {
           "name": "manko Extension Contributors",
-          "github": "https://github.com/Manko-iOS/trackers"
+          "github": "https://github.com/mangoreader-ios/trackers"
         }
       ],
       "rightsDeclaration": "Licensed under Apache-2.0.",
-      "rightsURL": "https://github.com/Manko-iOS/trackers/blob/main/extensions/tracker/MyAnimeList/LICENSE",
-      "reportURL": "https://github.com/Manko-iOS/trackers/issues/new/choose",
-      "sourceURL": "https://github.com/Manko-iOS/trackers/tree/main/extensions/tracker/MyAnimeList",
+      "rightsURL": "https://github.com/mangoreader-ios/trackers/blob/main/extensions/tracker/MyAnimeList/LICENSE",
+      "reportURL": "https://github.com/mangoreader-ios/trackers/issues/new/choose",
+      "sourceURL": "https://github.com/mangoreader-ios/trackers/tree/main/extensions/tracker/MyAnimeList",
       "sourceRevision": "main",
       "entryType": "extension",
       "kind": "tracker",
