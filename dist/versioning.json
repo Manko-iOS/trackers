@@ -4,8 +4,8 @@
     "id": "manko.trackers",
     "name": "Manko Trackers",
     "description": "User-installed reading-list trackers.",
-    "homepage": "https://github.com/mangoreader-ios/trackers",
-    "privacyURL": "https://github.com/mangoreader-ios/trackers/blob/main/PRIVACY.md",
+    "homepage": "https://github.com/Manko-iOS/trackers",
+    "privacyURL": "https://github.com/Manko-iOS/trackers/blob/main/PRIVACY.md",
     "publisher": {
       "name": "Manko Contributors"
     }
@@ -33,9 +33,9 @@
         }
       ],
       "rightsDeclaration": "Licensed under Apache-2.0.",
-      "rightsURL": "https://github.com/mangoreader-ios/trackers/blob/main/extensions/tracker/AniList/LICENSE",
-      "reportURL": "https://github.com/mangoreader-ios/trackers/issues/new/choose",
-      "sourceURL": "https://github.com/mangoreader-ios/trackers/tree/main/extensions/tracker/AniList",
+      "rightsURL": "https://github.com/Manko-iOS/trackers/blob/main/extensions/tracker/AniList/LICENSE",
+      "reportURL": "https://github.com/Manko-iOS/trackers/issues/new/choose",
+      "sourceURL": "https://github.com/Manko-iOS/trackers/tree/main/extensions/tracker/AniList",
       "sourceRevision": "main",
       "entryType": "extension",
       "kind": "tracker",
@@ -123,9 +123,9 @@
         }
       ],
       "rightsDeclaration": "Licensed under Apache-2.0.",
-      "rightsURL": "https://github.com/mangoreader-ios/trackers/blob/main/extensions/tracker/MyAnimeList/LICENSE",
-      "reportURL": "https://github.com/mangoreader-ios/trackers/issues/new/choose",
-      "sourceURL": "https://github.com/mangoreader-ios/trackers/tree/main/extensions/tracker/MyAnimeList",
+      "rightsURL": "https://github.com/Manko-iOS/trackers/blob/main/extensions/tracker/MyAnimeList/LICENSE",
+      "reportURL": "https://github.com/Manko-iOS/trackers/issues/new/choose",
+      "sourceURL": "https://github.com/Manko-iOS/trackers/tree/main/extensions/tracker/MyAnimeList",
       "sourceRevision": "main",
       "entryType": "extension",
       "kind": "tracker",

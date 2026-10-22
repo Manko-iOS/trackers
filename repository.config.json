@@ -9,8 +9,8 @@
       "id": "manko.trackers",
       "name": "Manko Trackers",
       "description": "User-installed reading-list trackers.",
-      "homepage": "https://github.com/mangoreader-ios/trackers",
-      "privacyURL": "https://github.com/mangoreader-ios/trackers/blob/main/PRIVACY.md",
+      "homepage": "https://github.com/Manko-iOS/trackers",
+      "privacyURL": "https://github.com/Manko-iOS/trackers/blob/main/PRIVACY.md",
       "publisherName": "Manko Contributors",
       "repositoryURL": "https://manko-ios.github.io/trackers/"
     }
